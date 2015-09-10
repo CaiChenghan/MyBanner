@@ -26,9 +26,6 @@
         size.width = 5;
         [tpView setFrame:CGRectMake(tpView.frame.origin.x, tpView.frame.origin.y,size.width,size.height)];
         
-        
-        
-        
 //        /**
 //         *  图片替换
 //         */
@@ -47,6 +44,11 @@
 //            tpView.image = [UIImage imageNamed:@""];
 //        }
     }
+}
+
+-(void)layoutSubviews
+{
+    [super layoutSubviews];
 }
 
 /*
